@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="titasmallick.github.io" resolutions="1x" timestamp="1573891103482">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="titasmallick.github.io" resolutions="1x" timestamp="1573891251809">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3883877711" ref="index"/>
+    <file name="index.css" crc="192125377" ref="index"/>
     <file name="iefonts_index.css" crc="48645660" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -32,5 +32,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4157055555" seo="true" mt="1573890983540" redirect="true"/>
+  <file name="index.html" crc="3804131151" seo="true" mt="1573891246184" redirect="true"/>
 </manifest>
