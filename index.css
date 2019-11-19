@@ -1,10 +1,16 @@
+
+.mainscreen{
+	 /*cursor: all-scroll;*/
+	 } 
 a{
 	text-decoration: none
 }
+
 .mainimage{
-	position: relative;	
+	position: relative;
 }
 .leftbox{
+	cursor:url(ball-l.png),auto;
 	position: absolute;
 	top:0px;
 	left:0px;
@@ -14,6 +20,7 @@ a{
 }
 
 .rightbox{
+	cursor:url(ball-r.png),auto;
 	position: absolute;
 	top:0px;
 	right:0px;
