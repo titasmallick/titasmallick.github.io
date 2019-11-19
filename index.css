@@ -23,7 +23,7 @@ a{
 }
 
 .mainimage{
-	height: 200px;
+	height: 400px;
 	width: auto;
 	position: relative;
 	left:50%;
@@ -39,7 +39,7 @@ a{
 .about{
 	color: white;
 	text-align: justify;
-	padding: 20px;
+	padding: 30px;
 	font-family: 'Montserrat', sans-serif;
 }
 
