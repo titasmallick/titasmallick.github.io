@@ -1,0 +1,165 @@
+a{
+	text-decoration: none
+}
+.mainimage{
+	position: relative;	
+}
+.leftbox{
+	position: absolute;
+	top:0px;
+	left:0px;
+	/*background: grey*/;
+	height: 100%;
+	width: 50%;
+}
+
+.rightbox{
+	position: absolute;
+	top:0px;
+	right:0px;
+	background:black;
+	height: 100%;
+	width: 50%;
+}
+
+.mainimage{
+	height: 200px;
+	width: auto;
+	position: relative;
+	left:50%;
+	transform: translate(-50%,0);
+	
+}
+
+.Textm{
+	color: white;
+	text-align: center;
+	font-family: 'Alata', sans-serif;
+}
+.about{
+	color: white;
+	text-align: justify;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Main_text{
+	transform: translate(0, -50%);
+	position: absolute;
+	top:50%;
+}
+.buttons{
+  font-family: 'Montserrat', sans-serif; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons h3{
+	color: white;
+	background: #cddc39;
+	margin: 10px;
+	float:left;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 16.5px;
+
+}
+
+.buttons h3:hover{
+	background: #39cddc;
+	color: black;
+
+}
+
+.buttons h3:active{
+	background: #e91e63;
+	color: black;
+
+}
+
+.hire{
+	position: absolute;
+	top:30px;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 18px;
+	margin-left: 10px;
+	background: #ed4b82;
+	padding: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.hire:hover{
+	
+	background:#4bedb6;
+	color: black; 
+}
+.hire:active{
+	
+	background:white;
+	color: black; 
+}
+
+.Cpyrt{
+	color: white;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: 6.5px;
+	/*background: white;*/
+
+}
+#aboutme{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	display: none;
+
+}
+
+.lftcntnt{
+	/*background: #2196f3;*/
+	width: 50%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#contact{
+	background: #2196f3;
+	padding: 12px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#contact:hover{
+	background: #ff7eb3;
+	color: black;
+	
+
+}
+
+#contact:active{
+	background: #ff8a7e;
+	color: white;
+	font-weight: normal;
+
+}
+
+#cpyrt2{
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 6.5px;
+
+}
