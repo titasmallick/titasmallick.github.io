@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>404 PAGE NOT FOUND</title>
+
+ 	<meta charset="UTF-8">
+ 	<meta name="description" content="Foody Couple, In quest of good food, New Contests are arriving, PAGE NOT FOUND">
+ 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+ 	<meta name="author" content="Titas Mallick, Amit Sen">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+	<link rel="icon" href="imge-08.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="404.css">
+</head>
+
+<!--right click disable-->
+<SCRIPT LANGUAGE="JavaScript">
+function clickIE() 
+{
+	if (document.all) 
+	{
+		return false;
+	}
+}
+
+function clickNS(e) {
+	if 
+		(document.layers||(document.getElementById&&!document.all)) {
+			if (e.which==2||e.which==3) 
+				{
+					return false;
+				}
+			}
+		}
+			if (document.layers){
+				document.captureEvents(Event.MOUSEDOWN);
+				document.onmousedown=clickNS;
+			}
+			else{
+				document.onmouseup=clickNS;
+				document.oncontextmenu=clickIE;
+			}
+
+			document.oncontextmenu=new Function("return false")
+</script>
+<body background="bg.jpg">
+<div>
+	<a href="index.html"><img class="pics" alt="404 error text custom foody Couple" src="404.png"></a>
+</div>
+
+	<!-- <div>
+		<img alt="foodyC logo" class="head" src="head.png">
+		<h1 id="head" style="font-family: 'Alata', sans-serif;
+		font-size: 25px;">404 PAGE NOT FOUND</h1>
+	</div>
+
+	<div class="main">
+		<h2>This Page Do Not Exsist. Please Visit The Link Below</h2>
+		<a href="index.html"><h2>Visit Here</h2></a>
+	</div> -->
+
+
+</body>
+</html>

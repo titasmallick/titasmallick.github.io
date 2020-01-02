@@ -1,0 +1,28 @@
+.head{
+	width: 500px;
+	margin-top: 20px;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+}
+
+#head{
+	text-align: center;
+	padding-top: 20px;
+	}
+
+.main{
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.pics{
+	/*background: black;*/
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*width: 22%;*/
+	top: 50%;
+	height: 18vh;
+
+}
