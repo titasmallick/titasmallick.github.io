@@ -1,172 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-.mainscreen{
-	 /*cursor: all-scroll;*/
-	 } 
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 a{
-	text-decoration: none
+    text-decoration: none;
+    text-decoration-color: black;
 }
-
-.mainimage{
-	position: relative;
+.navbarmain{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff200;
+    box-shadow: -8px -3px 8px 0px rgb(0 0 0 / 75%);
+    position: fixed;
+    width: 100vw;
 }
-.leftbox{
-	/*cursor:url(ball-l.png),auto;*/
-	position: absolute;
-	top:0px;
-	left:0px;
-	/*background: grey*/;
-	height: 100%;
-	width: 50%;
+.navbarmain h1{
+    padding: 0 20px;
 }
-
-.rightbox{
-	/*cursor:url(ball-r.png),auto;*/
-	position: absolute;
-	top:0px;
-	right:0px;
-	background:black;
-	height: 100%;
-	width: 50%;
+.navbarmenu{
+    display: flex;
+    justify-content: space-around;
 }
-
-.mainimage{
-	height: 400px;
-	width: auto;
-	position: relative;
-	left:50%;
-	transform: translate(-50%,0);
-	cursor:url(ball.cur),auto;
+.navbarmenu a{
+    color: black;
 }
-
-.Textm{
-	color: white;
-	text-align: center;
-	font-family: 'Alata', sans-serif;
+.navbarmenu p{
+    padding: 20px;
+    margin-right: 20px;
 }
-.about{
-	color: white;
-	text-align: justify;
-	padding: 30px;
-	font-family: 'Montserrat', sans-serif;
+.stratmaincontent{
+    padding-top: 100px;
 }
-
-.Main_text{
-	transform: translate(0, -50%);
-	position: absolute;
-	top:50%;
+.mianimage{
+    /* width: 20vw; */
+	border-radius: 10px;
+	height: 40vh;
+	object-fit: cover;
+	object-position: center;
+	transition: 0.5s;
 }
-.buttons{
-  font-family: 'Montserrat', sans-serif; 
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.herodiv{
+    border-bottom: 1px solid black;
 }
-
-.buttons h3{
-	color: white;
-	background: #cddc39;
-	margin: 10px;
-	float:left;
-	padding: 10px;
-	border-radius: 20px;
-	font-size: 16.5px;
-
+.herotext{
+    font-size: 6rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    transition: 0.5s;
+    width: 80vw;
+    margin: auto;
 }
-
-.buttons h3:hover{
-	background: #39cddc;
-	color: black;
-
+.mainbody{
+    border-bottom: 1px solid black;
 }
-
-.buttons h3:active{
-	background: #e91e63;
-	color: black;
-
+.contentBlocks{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    width: 80vw;
+    margin: auto;
 }
-
-.hire{
-	position: absolute;
-	top:30px;
-	font-family: 'Montserrat', sans-serif; 
-	font-size: 18px;
-	margin-left: 10px;
-	background: #ed4b82;
-	padding: 5px;
-	border-radius: 20px;
-	cursor: pointer;
+.contactareamain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
 }
-
-.hire:hover{
-	
-	background:#4bedb6;
-	color: black; 
+.contactareamain >img{
+    width: 100%;
+    margin: auto;
 }
-.hire:active{
-	
-	background:white;
-	color: black; 
+.contactareamain a{
+    color: black;
 }
-
-.Cpyrt{
-	color: white;
-	font-family: 'Montserrat', sans-serif; 
-	font-size: 15px;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	margin: 6.5px;
-	/*background: white;*/
-
+.footer{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
 }
-#aboutme{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	display: none;
-
-}
-
-.lftcntnt{
-	/*background: #2196f3;*/
-	width: 50%;
-	position: absolute;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-#contact{
-	background: #2196f3;
-	padding: 12px;
-	border-radius: 20px;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-
-}
-
-#contact:hover{
-	background: #ff7eb3;
-	color: black;
-	
-
-}
-
-#contact:active{
-	background: #ff8a7e;
-	color: white;
-	font-weight: normal;
-
-}
-
-#cpyrt2{
-	font-family: 'Montserrat', sans-serif; 
-	font-size: 15px;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	margin: 6.5px;
-
+@media screen and (max-width: 768px){
+    .herotext{
+        font-size: 4rem;
+        transition: 0.5s;
+    }
+    .contactareamain{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
